@@ -1,0 +1,15 @@
+[package]
+name = "land_registry"
+version = "1.0.0"
+authors = []
+
+[addresses]
+land_registry="0xab5d3e5e2605a91396434164b46dd76ecc98f6a44c3e25452b6216e24f1c3f6e"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
